@@ -45,6 +45,18 @@ nav li {
     margin-left: 50px;
 }
 
+.btn-contact {
+    background: #fff;
+    border: 1px solid #FD6E0A;
+    outline: none;
+    border-radius: 5px;
+    height: 64px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 45px;
+    margin-left: 20px;
+}
 .btn-primary {
     background: #FD6E0A;
     border: none;
