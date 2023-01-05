@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #fff8f3;
+    background-image: url(../images/header_bg.png), url(./images/developer.png);
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+}
+/* header and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    /* padding: 10px; */
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-orange {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    color: gray;
+    margin-left: 50px;
+}
+
+.btn-primary {
+    background: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    height: 64px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+
+.container {
+    margin: 0 70px 0 200px;
+    display: flex;
+    align-items: center;
+}
+.container-sub-title{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.container-title {
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+.container-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-me{
+    margin-top: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* .info-title{
+    color: #757575;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+.info-title li{
+    list-style: none;
+}
+.info{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+.info li{
+    list-style: none;
+} */
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    text-align: center;
+}
+.info-title p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+.info-title h4{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
